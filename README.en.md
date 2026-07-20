@@ -1,6 +1,8 @@
 # lx-skill
 
-English | [简体中文](README.md)
+<!-- i18n-source-sha256: 1eae846e141bad0ec5da0191dc1dc627e060b1db85429d254e5947dacdab8a92 -->
+
+[简体中文](README.md) | English | [Español](README.es.md) | [Deutsch](README.de.md) | [日本語](README.ja.md) | [한국어](README.ko.md)
 
 `lx-skill` is a growing Agent Skills collection for AI education, education in the new era, digital education, and personal growth. It distills Li Xiang's experience in rural education, AI-supported teaching, and communication inside hierarchical organizations. The skills work with Codex, Claude Code, and other agents that support the open Agent Skills specification.
 
@@ -64,6 +66,17 @@ For a single project, copy them to `.claude/skills/`. Invoke them explicitly wit
 /lx-ai-learning-coach
 /lx-institutional-social-coach
 ```
+
+## Keeping translations in sync
+
+The Chinese `README.md` is the documentation source. After translating a source update into every localized README, run:
+
+```bash
+python3 scripts/check_i18n_sync.py --update-markers
+python3 scripts/check_i18n_sync.py
+```
+
+The first command records the current source fingerprint in all six README files. The second verifies the fingerprint, language navigation, skill names, and installation entry point. A GitHub Action runs the same check on relevant pushes and Pull Requests. See [docs/i18n-maintenance.md](docs/i18n-maintenance.md) for the workflow.
 
 ## Examples
 
