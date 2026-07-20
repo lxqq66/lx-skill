@@ -1,0 +1,4 @@
+interface:
+  display_name: "李翔家庭学习环境诊断"
+  short_description: "诊断催促、比较、手机、任务与难度失配，设计家庭学习环境"
+  default_prompt: "使用 $lx-parent-learning-environment，帮我诊断并改善孩子的家庭学习环境。"
