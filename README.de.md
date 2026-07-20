@@ -1,10 +1,10 @@
 # lx-skill
 
-<!-- i18n-source-sha256: f2a5e78707065314058d6a267ce18b968ac3db96858708aabe13a213371b1fa6 -->
+<!-- i18n-source-sha256: c7f4df2f992d2eb6bd2a3d10f5ee5603ecef7f1caa68667f71ca81186874a3dc -->
 
 [简体中文](README.md) | [English](README.en.md) | [Español](README.es.md) | Deutsch | [日本語](README.ja.md) | [한국어](README.ko.md)
 
-`lx-skill` ist eine wachsende Sammlung von Agent Skills für KI-Bildung, Bildung im neuen Zeitalter, digitale Bildung und persönliche Entwicklung. Sie bündelt Li Xiangs Erfahrungen aus ländlicher Bildungsarbeit, KI-gestütztem Lernen und Kommunikation in hierarchischen Organisationen. Die Sammlung richtet sich vor allem an Nutzerinnen und Nutzer in China und funktioniert mit Tencent WorkBuddy, Kimi Code und ZCode; zugleich ist sie mit Codex, Claude Code und anderen Agenten kompatibel, die die offene Agent-Skills-Spezifikation unterstützen.
+`lx-skill` ist eine wachsende Sammlung von Agent Skills für KI-Bildung, Bildung im neuen Zeitalter, digitale Bildung und persönliche Entwicklung. Sie bündelt Li Xiangs Erfahrungen aus ländlicher Bildungsarbeit, KI-gestütztem Lernen und Kommunikation in hierarchischen Organisationen. Die Sammlung funktioniert mit Tencent WorkBuddy, Kimi Code und ZCode; zugleich ist sie mit Codex, Claude Code und anderen Agenten kompatibel, die die offene Agent-Skills-Spezifikation unterstützen.
 
 ## Enthaltene Skills
 
