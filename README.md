@@ -1,6 +1,8 @@
 # lx-skill
 
-[English](README.en.md) | 简体中文
+<!-- i18n-source-sha256: 1eae846e141bad0ec5da0191dc1dc627e060b1db85429d254e5947dacdab8a92 -->
+
+简体中文 | [English](README.en.md) | [Español](README.es.md) | [Deutsch](README.de.md) | [日本語](README.ja.md) | [한국어](README.ko.md)
 
 `lx-skill` 是一个持续生长的 AI 教育、新时代教育、数字教育与个人成长 Agent Skills 技能包，由李翔老师的乡村教育一线实践、AI赋能教学经验和组织沟通思考提炼而成。它兼容 Codex、Claude Code 及其他支持开放 Agent Skills 规范的智能体。
 
@@ -142,13 +144,29 @@ git pull
 
 更新后重新复制所需 skill 文件夹到个人或项目 skills 目录。
 
+## 多语言维护
+
+中文 `README.md` 是说明文档的内容源。其他语言 README 完成同步翻译后，运行：
+
+```bash
+python3 scripts/check_i18n_sync.py --update-markers
+python3 scripts/check_i18n_sync.py
+```
+
+第一条命令把当前中文源文档的内容指纹写入六份 README；第二条命令检查指纹、语言导航、skill 名称和安装入口。GitHub Action 会在每次相关提交或 Pull Request 时自动运行检查，避免中文说明已变更而其他语言被遗忘。详细流程见 [docs/i18n-maintenance.md](docs/i18n-maintenance.md)。
+
 ## 仓库结构
 
 ```text
 lx-skill/
 ├── README.md
 ├── README.en.md
+├── README.es.md
+├── README.de.md
+├── README.ja.md
+├── README.ko.md
 ├── ROADMAP.md
+├── scripts/check_i18n_sync.py
 ├── tests/evaluation-cases.md
 └── skills/
     ├── lx-education-diagnosis/
