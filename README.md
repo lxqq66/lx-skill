@@ -1,10 +1,10 @@
 # lx-skill
 
-<!-- i18n-source-sha256: 1eae846e141bad0ec5da0191dc1dc627e060b1db85429d254e5947dacdab8a92 -->
+<!-- i18n-source-sha256: f2a5e78707065314058d6a267ce18b968ac3db96858708aabe13a213371b1fa6 -->
 
 简体中文 | [English](README.en.md) | [Español](README.es.md) | [Deutsch](README.de.md) | [日本語](README.ja.md) | [한국어](README.ko.md)
 
-`lx-skill` 是一个持续生长的 AI 教育、新时代教育、数字教育与个人成长 Agent Skills 技能包，由李翔老师的乡村教育一线实践、AI赋能教学经验和组织沟通思考提炼而成。它兼容 Codex、Claude Code 及其他支持开放 Agent Skills 规范的智能体。
+`lx-skill` 是一个持续生长的 AI 教育、新时代教育、数字教育与个人成长 Agent Skills 技能包，由李翔老师的乡村教育一线实践、AI赋能教学经验和组织沟通思考提炼而成。它主要面向国内用户，可用于腾讯 WorkBuddy、Kimi Code、ZCode，也兼容 Codex、Claude Code 及其他支持开放 Agent Skills 规范的智能体。
 
 当前包含四个可独立安装的技能：
 
