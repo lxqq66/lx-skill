@@ -1,4 +1,4 @@
 interface:
-  display_name: "李翔AI教育全局诊断"
-  short_description: "诊断学生、家庭、学校与AI使用系统，给出可执行的七天教育实验"
-  default_prompt: "使用 $lx-education-diagnosis，通过分轮访谈诊断我遇到的教育问题。"
+  display_name: "李翔AI教育诊断与事件复盘"
+  short_description: "诊断教育系统或复盘一次教育选择，给出判断、修复与行动实验"
+  default_prompt: "使用 $lx-education-diagnosis，通过分轮访谈诊断我的教育问题；若是一次具体选择或冲突，请进入教育选择与事件复盘模式。"
