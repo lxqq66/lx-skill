@@ -1,10 +1,10 @@
 # lx-skill
 
-<!-- i18n-source-sha256: f2a5e78707065314058d6a267ce18b968ac3db96858708aabe13a213371b1fa6 -->
+<!-- i18n-source-sha256: c7f4df2f992d2eb6bd2a3d10f5ee5603ecef7f1caa68667f71ca81186874a3dc -->
 
 [简体中文](README.md) | [English](README.en.md) | [Español](README.es.md) | [Deutsch](README.de.md) | 日本語 | [한국어](README.ko.md)
 
-`lx-skill` は、AI教育、新時代の教育、デジタル教育、個人の成長を支援する Agent Skills パッケージです。李翔による農村教育の実践、AIを活用した学習支援、階層型組織におけるコミュニケーションの知見を整理しています。主に中国国内の利用者を想定し、Tencent WorkBuddy、Kimi Code、ZCode で利用できるほか、Codex、Claude Code、およびオープンな Agent Skills 仕様に対応するエージェントとも互換性があります。
+`lx-skill` は、AI教育、新時代の教育、デジタル教育、個人の成長を支援する Agent Skills パッケージです。李翔による農村教育の実践、AIを活用した学習支援、階層型組織におけるコミュニケーションの知見を整理しています。Tencent WorkBuddy、Kimi Code、ZCode で利用できるほか、Codex、Claude Code、およびオープンな Agent Skills 仕様に対応するエージェントとも互換性があります。
 
 ## 収録している Skills
 
